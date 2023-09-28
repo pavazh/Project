@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="23527" started-at="2023-08-12T17:26:07 IST" finished-at="2023-08-12T17:26:31 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="23527" started-at="2023-08-12T17:26:07 IST" finished-at="2023-08-12T17:26:31 IST">
+      <class name="testcases.VerifyLogin">
+        <test-method status="PASS" signature="setValues()[pri:0, instance:testcases.VerifyLogin@80169cf]" name="setValues" is-config="true" duration-ms="0" started-at="2023-08-12T17:26:07 IST" finished-at="2023-08-12T17:26:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setValues -->
+        <test-method status="PASS" signature="preCondition(java.lang.String)[pri:0, instance:testcases.VerifyLogin@80169cf]" name="preCondition" is-config="true" duration-ms="3155" started-at="2023-08-12T17:26:08 IST" finished-at="2023-08-12T17:26:11 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="runLogin(java.lang.String,java.lang.String)[pri:0, instance:testcases.VerifyLogin@80169cf]" name="runLogin" duration-ms="586" started-at="2023-08-12T17:26:11 IST" data-provider="sendData" finished-at="2023-08-12T17:26:12 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[demosalesmanager]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runLogin -->
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:testcases.VerifyLogin@80169cf]" name="postCondition" is-config="true" duration-ms="163" started-at="2023-08-12T17:26:12 IST" finished-at="2023-08-12T17:26:12 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+        <test-method status="PASS" signature="preCondition(java.lang.String)[pri:0, instance:testcases.VerifyLogin@80169cf]" name="preCondition" is-config="true" duration-ms="1656" started-at="2023-08-12T17:26:12 IST" finished-at="2023-08-12T17:26:14 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="runLogin(java.lang.String,java.lang.String)[pri:0, instance:testcases.VerifyLogin@80169cf]" name="runLogin" duration-ms="581" started-at="2023-08-12T17:26:14 IST" data-provider="sendData" finished-at="2023-08-12T17:26:14 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DemoCSR]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runLogin -->
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:testcases.VerifyLogin@80169cf]" name="postCondition" is-config="true" duration-ms="137" started-at="2023-08-12T17:26:14 IST" finished-at="2023-08-12T17:26:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- testcases.VerifyLogin -->
+      <class name="testcases.CreateLeadTestCase">
+        <test-method status="PASS" signature="setValues()[pri:0, instance:testcases.CreateLeadTestCase@44f75083]" name="setValues" is-config="true" duration-ms="6" started-at="2023-08-12T17:26:07 IST" finished-at="2023-08-12T17:26:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setValues -->
+        <test-method status="PASS" signature="preCondition(java.lang.String)[pri:0, instance:testcases.CreateLeadTestCase@44f75083]" name="preCondition" is-config="true" duration-ms="1645" started-at="2023-08-12T17:26:14 IST" finished-at="2023-08-12T17:26:16 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="runCreateLead(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.CreateLeadTestCase@44f75083]" name="runCreateLead" duration-ms="6634" started-at="2023-08-12T17:26:16 IST" data-provider="sendData" finished-at="2023-08-12T17:26:23 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Demosalesmanager]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[testleaf]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[pavazh]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[p]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runCreateLead -->
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:testcases.CreateLeadTestCase@44f75083]" name="postCondition" is-config="true" duration-ms="150" started-at="2023-08-12T17:26:23 IST" finished-at="2023-08-12T17:26:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+        <test-method status="PASS" signature="preCondition(java.lang.String)[pri:0, instance:testcases.CreateLeadTestCase@44f75083]" name="preCondition" is-config="true" duration-ms="1690" started-at="2023-08-12T17:26:23 IST" finished-at="2023-08-12T17:26:25 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="runCreateLead(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.CreateLeadTestCase@44f75083]" name="runCreateLead" duration-ms="6151" started-at="2023-08-12T17:26:25 IST" data-provider="sendData" finished-at="2023-08-12T17:26:31 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DemoCSR]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[testleaf]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[thamizh]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[p]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runCreateLead -->
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:testcases.CreateLeadTestCase@44f75083]" name="postCondition" is-config="true" duration-ms="177" started-at="2023-08-12T17:26:31 IST" finished-at="2023-08-12T17:26:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- testcases.CreateLeadTestCase -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
